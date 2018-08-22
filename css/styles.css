@@ -1,0 +1,23 @@
+*{margin:0px;padding:0px;}
+body{background-color:#f7f9fa;font-family: 'Open Sans', sans-serif;}
+li,ul,ol{list-style:none;}
+ .shopping-template h3{font-size:18px;margin-bottom:25px;position:relative;}
+ .shopping-template h3:before{content: "";width: 45px;height: 2px;background: #328fe8;position: absolute;bottom: -8px;}
+.mt-top{margin-top:7px;}
+.hidden{display:none;}
+ul.products-list-ul li{padding: 5px;background: #fff;font-weight:600; margin-bottom: 8px; border-bottom: 2px solid #ddd;}
+ul.products-list-ul li span.price-block{color:#328fe8;margin-left:5px;}
+.cd-add-to-cart{font-size:13px;}
+.cd-add-to-cart .glyphicon{margin-right:5px;}
+.cart-block{min-height:200px;border:2px solid #e0e5ed;background-color:#f0f3f8;padding:10px;}
+.cart-block .cd-cart-container{font-weight:bold;}
+.cart-block h4{margin: 0px;font-size: 14px;font-weight: 600;margin-bottom:15px;}
+.cart-header{font-size:13px;font-weight:600;margin-bottom:10px;}
+.cart-header div{padding-bottom:5px;border-bottom: 1px solid #ddd;}
+.cart-block .products-list-ul li{padding: 0px 0px 5px 0px;background: none;}
+.delete-item{margin-left:10px;color:#bf0000;}
+.glyphicon-info-sign{margin-left:5px;}
+.total-price-row{text-align:right;padding-right:68px;}
+.tooltip.in{opacity:1;}
+.tooltip-inner{background-color:#fff;color:#333;}
+.tooltip.top .tooltip-arrow{border-top-color:#fff;}
